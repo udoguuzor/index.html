@@ -1,0 +1,1058 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header{
+    width:100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.Headerholder{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logoholder{
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    
+    
+
+
+}
+.navholder{
+    width: 240px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500px;
+
+
+}
+.herosection{
+    width: 90%;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.lefthero{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+
+.text{
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: 500px;
+    color: rgba(44, 37, 37, 0.877)
+    
+}
+.text2{
+    font-size: 15px;
+    font-family: Raleway;
+    font-weight: 500px;
+    color: rgba(44, 37, 37, 0.877);
+    margin-top: 20px;
+}
+.inputholder{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+
+
+}
+
+.heroInput{
+  width: 300px; 
+  height: auto; 
+   text-decoration: solid;
+   border: 10px 0px 10px 0px;
+}
+.herobutton{
+    width: 200px;
+    height: auto;
+    border: 10px 0px 10px 0px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+.righthero{
+    width: 50%;
+    height: 100%;
+
+
+}
+.righthero img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.mainherosection2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.herosection2{
+    width: 90%;
+    height: 400px;
+    display: flex;
+
+
+}
+
+.leftherosection2{
+    width: 50%;
+    height: 100%;
+
+    
+
+}
+.textsection1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500px;
+
+
+}
+.textsection2{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+.textsection3{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-top: 20px;
+}
+.button2{
+    width: 150px;
+    height: 20px;
+    color: blue;
+    margin-top: 20px;
+
+}
+.cardholder{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+
+}
+.card3{
+    width:300px;
+    height: 100%;
+    background-color: white;
+    border: 0.2px solid;
+    border-radius: 5px;
+    border-color: rgb(219, 202, 202);
+    display: flex;
+    justify-content: center;
+
+}
+.cardwith{
+    width: 90%;
+    height: 100%;
+    
+}
+.cardicon{
+    margin-top: 5px;
+}
+.cardtext1{
+    font-size: 18px;
+}
+
+
+
+.rightherosection2{
+    width: 50%;
+    height: 100%;
+
+
+}
+.rightherosection2 img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardtext2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    
+
+}
+.cardimg{
+    width: 20px;
+    height: 20px;
+    border: 50%;
+    margin-top: 5px;
+}
+.cardimg img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.cardname{
+    width: 200px;
+    height: 20px;
+    margin: 5px 0px 5px 5px
+}
+
+.name1{
+    font-size: 10px;
+}
+.name2{
+    font-size: 10px;
+    color: rgb(165, 151, 151);
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:425px){
+    .herosection{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .nav{
+        margin-left: 20px;
+
+    }
+
+    .lefthero{
+        width: 100%;
+        height: auto;
+    
+    }
+    .text{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 500px;
+        color: rgba(44, 37, 37, 0.877)
+    }
+    .text2{
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 500px; 
+        margin-top: 30px; 
+    }
+    .righthero{
+        width: 100%;
+        height: auto;
+    }
+    .righthero img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width:425px) and (max-width:768px) {
+    .herosection{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .lefthero{
+        width: 100%;
+        height: auto;
+
+    }
+    .text{
+        width: 100%;
+        font-size: 20px;
+        font-family: raleway;
+        font-weight: 500px;
+    }
+    .text2{
+        margin-top: 20px;
+        font-size: 25.5px;
+    }
+    .header{
+        width: 100%;
+        justify-content: center;
+    }
+    .Headerholder{
+        width: 90%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .navholder{
+        width: 240px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+        .righthero img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+    }
+
+} 
+
+
+@media(min-width:320px) and (max-width:425px) {
+    .mainherosection2{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+
+        
+}
+
+
+.herosection2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.leftherosection2{
+    width: 100%;
+
+
+
+    
+
+}
+.textsection1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500px;
+
+
+}
+.textsection2{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+.textsection3{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-top: 20px;
+}
+.button2{
+    width: 150px;
+    height: 20px;
+    color: blue;
+    margin-top: 20px;
+
+}
+.cardholder{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+
+}
+.card3{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    border: 0.2px solid;
+    border-radius: 5px;
+    border-color: rgb(219, 202, 202);
+    display: flex;
+    justify-content: center;
+
+}
+.cardwith{
+    width: 90%;
+    height: 100%;
+    
+}
+.cardicon{
+    margin-top: 5px;
+}
+.cardtext1{
+    font-size: 18px;
+}
+
+
+
+.rightherosection2{
+    width: 50%;
+    height: 100%;
+
+
+}
+.rightherosection2 img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardtext2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    
+
+}
+.cardimg{
+    width: 20px;
+    height: 20px;
+    border: 50%;
+    margin-top: 5px;
+}
+.cardimg img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.cardname{
+    width: 200px;
+    height: 20px;
+    margin: 5px 0px 5px 5px
+}
+
+.name1{
+    font-size: 10px;
+}
+.name2{
+    font-size: 10px;
+    color: rgb(165, 151, 151);
+
+}
+.rightherosection2{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+
+
+}
+.rightherosection2 img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+}
+
+
+
+
+@media (min-width:425px) and (max-width:768px) {
+    .mainherosection2{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        
+}
+
+
+.herosection2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.leftherosection2{
+    width: 100%;
+    margin-top: 190px;
+
+
+
+    
+
+}
+.textsection1{
+    width: 100%;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500px;
+
+
+}
+.textsection2{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+.textsection3{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-top: 20px;
+}
+.button2{
+    width: 150px;
+    height: 20px;
+    color: blue;
+    margin-top: 20px;
+
+}
+.cardholder{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+
+}
+.card3{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    border: 0.2px solid;
+    border-radius: 5px;
+    border-color: rgb(219, 202, 202);
+    display: flex;
+    justify-content: center;
+
+}
+.cardwith{
+    width: 90%;
+    height: 100%;
+    
+}
+.cardicon{
+    margin-top: 5px;
+}
+.cardtext1{
+    font-size: 18px;
+}
+
+
+
+.rightherosection2{
+    width: 50%;
+    height: 100%;
+
+
+}
+.rightherosection2 img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardtext2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    
+
+}
+.cardimg{
+    width: 20px;
+    height: 20px;
+    border: 50%;
+    margin-top: 5px;
+}
+.cardimg img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.cardname{
+    width: 200px;
+    height: 20px;
+    margin: 5px 0px 5px 5px
+}
+
+.name1{
+    font-size: 10px;
+}
+.name2{
+    font-size: 10px;
+    color: rgb(165, 151, 151);
+
+}
+.rightherosection2{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+
+
+}
+.rightherosection2 img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+}
+
+.lasthero{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.last1{
+    width: 90%;
+    min-height: 100%;
+
+    display:flex;
+    flex-direction: column;
+
+  
+}
+.leftlasthero{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(66, 24, 143);
+
+    display: flex;
+    justify-content: center;
+}
+
+.get1{
+    width: 90%;
+    height: 100%;
+    background-color:rgb(66, 24, 143);
+
+}
+.support{
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.port1{
+    width: 50%;
+    height: 100%;
+
+}
+
+.textport1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    margin-top: 30px;
+    color: white;
+}
+.textport2{
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    color: white;
+}
+.port2{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(66, 24, 143);
+
+    display: flex;
+    flex-direction: column;
+}
+.textInput{
+    width: 400px;
+    height: 40px;
+    margin: 40px 0px 0px 10px
+}
+.textbutton{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    margin: 10px 0px 0px 10px
+}
+   
+
+.rightlasthero{
+    width: 100%;
+    height: 400px;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+}
+
+.is{
+    width: 90%;
+    height: 100%;
+    background-color:blue;
+    display: flex;
+    justify-content: space-between;
+}
+.that{
+    margin-top: 30px;
+    color: white;
+
+}
+.that img{
+background-color: red;
+margin-right: 2px;
+}
+.stress{
+    
+}
+.fred{
+margin-top: 90px;
+}
+.frank{
+margin-top: 20px;
+}
+.beans{
+    margin-top: 70px;
+}
+.rice{
+    display: flex;
+    margin-top: 70px;
+}
+.ceo img{
+    width:20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+   @media (min-width:320px) and (max-width:425px) {
+    
+.lasthero{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    
+
+}
+.last1{
+    width: 90%;
+    min-height: 100%;
+    background-color:rgba(0, 0, 255, 0.733);
+
+    display:flex;
+    flex-direction: column;
+
+  
+}
+.leftlasthero{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(66, 24, 143);
+    justify-content: column;
+    display: flex;
+    justify-content: center;
+}
+
+.get1{
+    width: 90%;
+    height: 100%;
+    background-color:rgb(66, 24, 143);
+    flex-direction: column;
+
+   
+
+}
+.support{
+  width: 100%; 
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.port1{
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.textport1{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    margin-top: 30px;
+    color: white;
+}
+.textport2{
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    color: white;
+}
+.port2{
+    width: 100%;
+    height: auto;
+    background-color:rgb(66, 24, 143);
+
+    
+}
+.textInput{
+    width: 250px;
+    height: 40px;
+    margin: 40px 0px 0px 10px
+}
+.textbutton{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    margin: 10px 0px 0px 10px
+}
+   
+
+.rightlasthero{
+    width: 100%;
+    height: 400px;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+}
+
+.is{
+    width: 100%;
+    height: 100%;
+    background-color:blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.was{
+    width: 100%;
+    margin-top: 50px;
+}
+.that{
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+
+}
+.that img{
+background-color: red;
+margin-right: 2px;
+}
+.stress{
+    
+}
+.fred{
+margin-top: 90px;
+}
+.frank{
+margin-top: 20px;
+}
+.beans{
+    margin-top: 70px;
+}
+.rice{
+    display: flex;
+    margin-top: 70px;
+}
+.ceo img{
+    width:20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+} 
+@media (min-width:425px) and (max-width:768px) {
+    .lasthero{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+        
+    
+    }
+    .last1{
+        width: 90%;
+        min-height: 100%;
+        background-color:rgba(0, 0, 255, 0.733);
+        margin-top: 300px;
+        display:flex;
+        flex-direction: column;
+    
+      
+    }
+    .leftlasthero{
+        width: 100%;
+        height: 400px;
+        background-color:rgb(66, 24, 143);
+        justify-content: column;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .get1{
+        width: 90%;
+        height: 100%;
+        background-color:rgb(66, 24, 143);
+        flex-direction: column;
+    
+       
+    
+    }
+    .support{
+      width: 100%; 
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+    .port1{
+        width: 100%;
+        height: 50%;
+        
+    
+    }
+    
+    .textport1{
+        width: 100%;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500px;
+        margin-top: 30px;
+        color: white;
+    }
+    .textport2{
+        font-size: 11px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500px;
+        color: white;
+    }
+    .port2{
+        width: 100%;
+        height: auto;
+        background-color:rgb(66, 24, 143);
+    
+        
+    }
+    .textInput{
+        width: 250px;
+        height: 40px;
+        margin: 40px 0px 0px 10px
+    }
+    .textbutton{
+        width: 200px;
+        height: 40px;
+        background-color: blue;
+        margin: 10px 0px 0px 10px
+    }
+       
+    
+    .rightlasthero{
+        width: 100%;
+        height: 400px;
+        background-color:blue;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .is{
+        width: 100%;
+        height: 100%;
+        background-color:blue;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    .was{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .that{
+        width: 100%;
+        margin-top: 30px;
+        color: white;
+    
+    }
+    .that img{
+    background-color: red;
+    margin-right: 2px;
+    }
+    .stress{
+        
+    }
+    .fred{
+    margin-top: 90px;
+    }
+    .frank{
+    margin-top: 20px;
+    }
+    .beans{
+        margin-top: 70px;
+    }
+    .rice{
+        display: flex;
+        margin-top: 70px;
+    }
+    .ceo img{
+        width:20px;
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    } 
+    
+
+
+
+
+
